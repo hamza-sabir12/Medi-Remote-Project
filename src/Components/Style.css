@@ -1,0 +1,13 @@
+/* //  <form onSubmit={handleformValues}></form> */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768) {
+.item-1 {
+    display: flex;
+    direction: "column-reverse";
+    background: #000;
+}
+.item-2{
+    border-radius: 20px;
+    background: cyan;
+}
+}
