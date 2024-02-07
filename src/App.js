@@ -21,7 +21,7 @@ function App() {
             <Route path = "/AdminPage" element = {<AdminPage />} />
             <Route path = "/AdminPage/:id" element = {<AdminPage />} />
             {<Route path = "/UserDetails" element = { <UserDetails /> } />}
-            <Route path = "/UserDetails/:id" element = { <UserDetails /> } />
+            <Route path = "/UserDetails/:user_ID" element = { <UserDetails /> } />
             
           </Routes>
         </BrowserRouter>
