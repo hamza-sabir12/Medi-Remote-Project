@@ -98,7 +98,7 @@ const UserDetails = () => {
   };
 
   // Function -- Automatically Call for First Time Fetch Data
-  
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -557,7 +557,7 @@ const UserDetails = () => {
                   </Button>
                 </div>
               ) : (
-                <div>Loading...</div>
+                <div>Loading......</div>
               )}
             </Box>
           </Box>
