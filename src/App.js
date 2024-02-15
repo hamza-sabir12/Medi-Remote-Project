@@ -23,6 +23,9 @@ function App() {
             {<Route path = "/UserDetails" element = { <UserDetails /> } />}
             <Route path = "/UserDetails/:user_ID" element = { <UserDetails /> } />
             
+
+
+            
           </Routes>
         </BrowserRouter>
       }
